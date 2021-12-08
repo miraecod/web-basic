@@ -1,0 +1,281 @@
+* {
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    list-style: none;
+    text-decoration: none;
+    border-collapse: collapse;
+    margin: 0px;
+    padding: 0px;
+    color: black;
+}
+
+h1 {
+    font-size: 48px;
+    font-weight: bold;
+}
+
+.subtext {
+    font-size: 20px;
+    font-weight: lighter;
+}
+
+.subtext2 {
+    font-size: 15px;
+    font-weight: 100;
+    margin-left: 50px;
+
+}
+
+.subtext_bold {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+/* --- */
+
+.menu {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.orders {
+    font-size: 23px;
+    font-weight: lighter;
+}
+
+.intro_bg {
+    background-image: url("images/intro.png");
+    width: 100%;
+    height: 718px;
+}
+
+.header {
+    display: flex;
+    width: 1280px;
+    height: 86px;
+    margin:auto;
+}
+
+.search_area {
+    width: 300px;
+    height: 40px;
+    background: rgba(0,0,0,0.5);
+    border-radius: 5px;
+    margin-top: 24px;
+}
+
+.search_area > form {
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 2px;
+}
+
+.search_area > form > input {
+    border: none;
+    width: 230px;
+    height: 40px;
+    background: rgba(0,0,0,0);
+    color: white;
+    padding-left: 10px;
+}
+
+.search_area > form > span {
+    width: 50px;
+    color: white;
+    font-weight: 400;
+    cursor: pointer;
+}
+
+.nav {
+    display: flex;
+    justify-content: flex-end;
+    line-height: 86px;
+    width: calc(1280px - 300px);
+}
+
+.nav > li {
+    margin-left: 84px;
+}
+
+.nav > li > a {
+    color: white;
+}
+
+.intro_text {
+    width: 100%;
+    margin: 231px auto 231px auto;
+    text-align: center;
+}
+
+.intro_text > h1,
+.intro_text > h4 {
+    color: white;
+}
+
+.amount {
+    position: relative;
+    top: -66px;
+    display: flex;
+    width: 1280px;
+    margin: auto;
+    background: white;
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
+}
+
+.amount > li {
+    flex: 1;
+    height: 132px;
+}
+
+.amount > li > div {
+    text-align: center;
+    height: 57px;
+    margin-top: 37px;
+}
+
+.amount > li:not(:last-child) > div {
+    border-right: 1px solid #e1e1e1;
+}
+
+/* main_contents1 */
+
+.main_contents1 {
+    width: 100%;
+    height: 601px;
+    margin-top: -132px;
+    background: #f1f2f3;
+    padding-bottom: 40px;
+}
+
+.main_contents1 > h1 {
+    padding-top: 116px;
+    text-align: center;
+}
+
+.main_contents1 > .subtext {
+    text-align: center;
+}
+
+.icons {
+    display: flex;
+    width: 1280px;
+    margin: auto;
+}
+
+.icons > li {
+    flex: 1;
+    height: 302px;
+    background: white;
+    margin-top: 49px;
+    text-align: center;
+}
+
+.icons > li > .icon_img {
+    margin-top: 18px;
+}
+
+.icons > li:not(:last-child) {
+    margin-right: 20px;
+}
+
+.icons .subtext2 {
+    width: 190px;
+    margin: auto;
+}
+
+.btn_more {
+    width: 100px;
+    height: 30px;
+    background: rgb(28, 78, 28);
+    color: white;
+    font-size: 12px;
+    line-height: 30px;
+    margin: 25px auto;
+    border-radius: 2px;
+}
+
+/* main_contents2 */
+
+.main_contents2 {
+    width: 100%;
+    height: 659px;
+    padding-bottom: 40px;
+}
+
+.main_contents2 > h1 {
+    padding-top: 50px;
+    text-align: center;
+}
+
+.main_contents2 > .subtext {
+    text-align: center;
+}
+
+.service {
+    width: 1280px;
+    display: flex;
+    margin: 49px auto;
+    /* margin: 49px auto 60px auto; */
+
+    height: 427px;
+}
+
+.service img {
+    width: 640px;
+    height: 427px;
+}
+
+.service > .subtext2 {
+    padding: 30px 25px;
+    line-height: 30px;    
+}
+
+.service > .subtext > h2 {
+    margin-bottom: 27px;
+}
+
+/* main_contents3 */
+
+.main_contents3 {
+    width: 100%;
+    height: 418px;
+    background-image: url("images/contact.png");
+}
+
+.main_contents3 > ul {
+    display: flex;
+    padding-top: 138px;
+}
+
+.main_contents3 > ul > li {
+    flex: 1;
+    text-align: center;
+    color: white;
+}
+
+.main_contents3 > ul > li > div > h1,
+.main_contents3 > ul > li > div {
+    color: white;
+}
+
+.btn_more2 {
+    width: 220px;
+    height: 40px;
+    margin: 16px auto;
+    line-height: 40px;
+    border: 1px solid white;
+    color: white;
+    cursor: pointer;
+}
+
+footer {
+    background: #1f1f1f;
+    padding: 30px;
+}
+
+footer > div {
+    color: white;
+    font-size: smaller;
+    letter-spacing: 1px;
+    text-align: center;
+
+}
